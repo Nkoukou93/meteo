@@ -1,0 +1,166 @@
+
+@media only screen and (max-width: 600px) {
+
+    /* Affichage sur telephone*/
+    body{
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      box-sizing: border-box;
+    }
+  
+  
+    .meteo{
+      background-image: url(/images/Magda-Ehlers-clouds-1536x1024.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: 100vh;
+    
+    }
+    h1{
+      color: white;
+      text-align: center;
+      font-weight: 900;
+      font-size: 100px;
+    }
+    .container{
+      position: relative;
+      top: 100px;
+    }
+    
+   #ville,#input{
+      margin: 10px 0px 0px 30px;
+      font-size: 25px;
+    }
+    #button{
+      margin: 20px 0px 0px 130px;
+      font-size: 20px;
+      
+    }
+    #info{
+      margin:50px 0px 0px 45px;
+      font-size: 40px;
+      font-weight: 900;
+      border-radius: 20px;
+      width: 300px;
+      color: white;
+    }
+    
+  }
+  @media only screen and (min-width: 600px) {
+    /* Affichage sur tablette*/
+    body{
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      box-sizing: border-box;
+    }
+  
+    
+    .meteo{
+      background-image: url(/images/Magda-Ehlers-clouds-1536x1024.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: 100vh;
+    
+    }
+  
+    h1{
+      color: white;
+      text-align: center;
+      font-size: 100px;
+    }
+    .container{
+      position: relative;
+      top: 100px;
+    }
+    
+   #ville{
+      margin: 10px 0px 0px 100px;
+      font-size: 50px;
+    }
+    #button{
+      position: relative;
+      top: 50px;
+      font-size: 40px;
+      margin: 0px 0px  0px 200px;
+      background-color: aqua;
+      border-radius: 50px;
+      width: 50%;
+  
+      
+    }
+  
+    #info{
+      margin:130px 0px 0px 150px;
+      font-size: 70px;
+      font-weight: 900;
+      width: 50%;
+      color: white;
+    }
+    
+  }
+  
+  @media only screen and (min-width: 768px) {
+    /* Affichage sur ordinateur*/
+  
+    body{
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      box-sizing: border-box;
+      background-color: black;
+    }
+  
+    
+    .meteo{
+      background-image: url(/images/weather-images.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: 100vh;
+      
+  
+    
+    }
+  
+    h1{
+      color: white;
+      text-align: center;
+      font-size: 100px;
+    }
+    .container{
+      position: relative;
+      top: 100px;
+      height: 100%;
+    }
+    
+   #ville{
+      margin: 10px 0px 0px 500px;
+      font-size: 40px;
+    }
+    #button{
+      position: relative;
+      top: 40px;
+      font-size: 30px;
+      margin: 0px 0px  0px 200px;
+      background-color: aqua;
+      border-radius: 50px;
+      width: 30%;
+      margin-left: 500px;
+  
+      
+    }
+  
+    #info{
+      margin:130px 0px 0px 500px;
+      font-size: 70px;
+      font-weight: 900;
+      width: 50%;
+      color: white;
+    }
+    
+  }
+  
