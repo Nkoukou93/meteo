@@ -14,7 +14,7 @@
     height: 597px;
     border-radius: 19px;
     margin: 0 auto;
-    background: url(/images/7f631e577ed5e5ffbbce726f8ec03489.jpg), lightgray 50% / cover no-repeat;
+    background: url(images/7f631e577ed5e5ffbbce726f8ec03489.jpg), lightgray 50% / cover no-repeat;
   }
   .main{
     position: relative;
@@ -82,7 +82,7 @@
     width: 600px;
     height: 625px;
     margin: 80PX 60px;
-    background: url(/images/7f631e577ed5e5ffbbce726f8ec03489.jpg), lightgray 50% / cover no-repeat;
+    background: url(images/7f631e577ed5e5ffbbce726f8ec03489.jpg), lightgray 50% / cover no-repeat;
     border-radius: 19px;
     border: 1px solid red;
   }
@@ -150,7 +150,7 @@
   width: 600px;
   height: 625px;
   margin: 80PX 60px;
-  background: url(/images/7f631e577ed5e5ffbbce726f8ec03489.jpg), lightgray 50% / cover no-repeat;
+  background: url(images/7f631e577ed5e5ffbbce726f8ec03489.jpg), lightgray 50% / cover no-repeat;
   border-radius: 19px;
   border: 1px solid red;
 }
