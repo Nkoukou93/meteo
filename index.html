@@ -1,20 +1,28 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meteo</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/style/style.css">
+  <title>Meteo</title>
 </head>
 <body>
-  <main class="meteo">
-    <div class="container">
-        <h1>Météo</h1>
-        <input  type="text" id="ville" placeholder="ville/pays">
-        <button type="button" id="button" onclick="getWeather()">Recherche</button>
-        <div id="info"></div>
+    <!--Carte de la méteo-->
+    
+  <div class="carte">
+     <!--titre-->
+    <h1>Prévisions météorologiques</h1>
+     <!--barre de recherche-->
+    <div class="barre-de-recherche">
+         <!--zone d e recherche pour entrer la localisation dont on souhaite obtenir la météo-->
+      <input type="text" id="localisation" placeholder="Entrer votre ville/pays">
+      <button type="button" class="button" onclick="recherche()">Recherche</button>
     </div>
-  </main>
-    <script src="main.js"></script>
+    <!--affichage des prévisions météoroligiques-->
+    <div class="previsions" id="previsions">
+     
+
+  </div>
+  <script src="/js/main.js"></script>
 </body>
 </html>
