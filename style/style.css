@@ -1,4 +1,4 @@
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 767px){
 
     /* Affichage sur telephone*/
     body{
@@ -65,72 +65,6 @@
   
 
     
-  }
-  @media only screen and (min-width: 601px) {
-
-    /* Affichage sur tablette*/
-    body{
-      margin: 0;
-      padding: 0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      box-sizing: border-box;
-      background-color: #87ceeb;
-      overflow: hidden;
-    }
-
-  .carte{
-    width: 600px;
-    height: 625px;
-    margin: 80PX 60px;
-    background: url(../images/7f631e577ed5e5ffbbce726f8ec03489.jpg), lightgray 50% / cover no-repeat;
-    border-radius: 19px;
-    border: 1px solid red;
-  }
-  .main{
-    position: relative;
-    left: 200px;
-  }
-  #ville,#nuage,#desc,#temperature{
-    color: #000;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: normal;
-  }
-
-  h1{
-    color: rgba(0, 0, 0, 0.98);
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    text-align: center;
-  }
-   input{
-    width: 426px;
-    height: 53px;
-    border-radius: 7px;
-    background: rgba(135, 236, 238, 0.73);
-    margin: 54px 67px 0px 70px;
-    color: #000;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    text-align: center;
-   }
-   button{
-    width: 183px;
-    height: 46px;
-    border-radius: 19px;
-    background: rgba(50, 193, 195, 0.73);
-    margin: 29px 29px 14px 200px;
-    color: rgba(0, 0, 0, 0.98);
-    font-size: 14px;
-    font-weight: 700;
-    line-height: normal;
-   }
- 
   }
     
 
