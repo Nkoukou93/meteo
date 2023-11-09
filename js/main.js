@@ -15,7 +15,7 @@ function recherche() {
     //gérer les erreurs de survenues durant l'excution de la fonction fetch
     .catch(error => {
       console.error('Error fetching weather data:', error);//afficher les erreurs en console
-      meteo.innerHTML = 'Error fetching weather data.';
+      meteo.innerHTML = 'Données non disponibles.';
     });
 }
 //fonction pour afficher la méteo à l'utilisateur
